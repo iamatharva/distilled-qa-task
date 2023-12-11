@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  e2etest:
+    image: e2etest
+    ports: 
+      - 8087:8087
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: e2etest

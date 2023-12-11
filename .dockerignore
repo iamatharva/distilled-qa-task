@@ -1,0 +1,9 @@
+node_modules
+dist/config*.js
+.dockerignore
+.gitattributes
+.gitignore
+.project
+npm-debug.log
+README.md
+screenshots
