@@ -65,9 +65,9 @@ To start running test on your machine
 Level of logging verbosity: `trace` | `debug` | `info` | `warn` | `error` | `silent`
 Change the value for log level from above mentioned values [config file](./config/base.conf.js)
 
-    ```
-    logLevel: 'error'
-    ```
+  ```
+  logLevel: 'error'
+  ```
 
 ### Updating the chromedriver image locally and in CI both
 
